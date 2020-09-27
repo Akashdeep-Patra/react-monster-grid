@@ -11,10 +11,12 @@
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
+  box-shadow: 10px 10px 10px #000f;
 }
 html {
   padding-top: 10px;
 }
 .card-container:hover {
   transform: scale(1.1);
+  box-shadow: 10px 10px 20px #000f;
 }
